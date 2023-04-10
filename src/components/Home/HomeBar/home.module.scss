@@ -1,0 +1,67 @@
+.home-top {
+    .home-bar {
+        background-color: #323232;
+        overflow: hidden;
+        perspective-origin: 10% 30%;
+        position: relative;
+        z-index: 1;
+        line-height: 22px;
+        text-align: center;
+        user-select: none;
+
+        .content {
+            position: relative;
+            display: flex;
+            height: 46px;
+
+            .bar-left,
+            .bar-right {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                display: flex;
+                -webkit-box-align: center;
+                align-items: center;
+                padding: 0 16px;
+                font-size: 14px;
+                cursor: pointer;
+
+                .li {
+                    width: 7rem;
+                    height: 46px;
+                    transform: translateX(-50%);
+                    perspective: 2000px;
+                    perspective-origin: 10% 30%;
+
+                    .home_log {
+                        width: 7rem;
+                        height: 46px;
+                        left: 47vw;
+                        transition: all 3s;
+                        transform-style: preserve-3d;
+                        position: relative;
+                        line-height: 46px;
+
+                        .front_img {
+                            width: 7rem;
+                            height: 46px;
+                            background: url(//cdn.yoho.cn/yohobuywap-node/img/yohologo02.4b84a9fb7d.png) center no-repeat;
+                            background-color: #323232;
+                            background-size: 100%;
+                            position: absolute;
+                            transform: rotateX(180deg);
+                        }
+                    }
+                }
+            }
+            .bar-right {
+                left: 83vw;
+                right: 0;
+                font-size: 18px;
+                color: #fff;
+            }
+        }
+       
+    }
+    
+}

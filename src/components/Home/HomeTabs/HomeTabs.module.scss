@@ -1,0 +1,93 @@
+.tabs{
+    width: 100vw;
+     .ant-tabs-nav-wrap{
+        width: 100vw;
+    }
+}
+.tabs-content {
+    .tabs-pane {
+        box-sizing: border-box;
+        width: 100%;
+        background-color: #fff;
+
+        ul {
+            list-style: none;
+            padding-bottom: 49px;
+
+            .tabs-list {
+                background-color: #f5f4f9;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+
+                li:nth-of-type(1) {
+                    margin-top: 10px;
+                    height: calc(100vw / 2 + 100px);
+                }
+
+                li:nth-of-type(2n + 4) {
+                    transform: translateY(-8vh);
+                }
+
+                li:nth-of-type(2) {
+                    height: calc(100vw / 2 + 40px);
+                }
+                li:nth-of-type(1) img {
+                    height: 80%;
+                }
+                li {
+                    margin: 10px 0;
+                    width: calc(100vw / 2 - 20px);
+                    background-color: white;
+
+                   
+
+                    img {
+                        width: 100%;
+                        border-style: none;
+                    }
+
+                    h3 {
+                        margin: 8px 0 5px 0;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        transform: scale(0.9);
+                        font-size: 12px;
+                    }
+
+                    p {
+                        padding: 0 5px;
+                        display: flex;
+                        justify-content: space-between;
+
+                        b {
+                            display: flex;
+                            font-weight: bolder;
+
+                            span {
+                                font-size: 12px;
+                            }
+
+                            span:nth-of-type(1) {
+                                color: red;
+                            }
+
+                            span:nth-of-type(2) {
+                                display: block;
+                                transform: scale(0.9);
+                                padding: 0 5px;
+                                color: #b0b0b0;
+                                text-decoration: line-through;
+                            }
+                        }
+                    }
+
+                    li:nth-of-type(1) img {
+                        height: 80%;
+                    }
+                }
+            }
+        }
+    }
+}

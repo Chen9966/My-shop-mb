@@ -1,0 +1,116 @@
+.Installment {
+    padding: 14px;
+    border-bottom: 1px solid #f5f4f9;
+
+    .ant-drawer .ant-drawer-content {
+        border-radius: 16px 16px 0 0;
+    }
+}
+
+.cell {
+    padding: 3px;
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    color: #323233;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: #fff;
+
+    .cell-title {
+        -webkit-box-flex: 1;
+        flex: 1;
+    }
+
+    .cell-value {
+        position: relative;
+        overflow: hidden;
+        color: #969799;
+        text-align: right;
+        vertical-align: middle;
+        word-wrap: break-word;
+    }
+}
+
+.drawer_mask {
+    margin: 20px 10px;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        height: 180px;
+
+        li {
+            padding: 20px 10px;
+            box-sizing: border-box;
+            margin: 10px;
+            border: 1px solid #ccc;
+            list-style: none;
+            flex: 1;
+
+            p {
+                font-size: 16px;
+            }
+
+            span {
+                font-size: 12px;
+                font-weight: 600;
+            }
+
+        }
+
+        .active {
+            border: 1px solid #2f3640 !important;
+        }
+
+    }
+
+    .btn {
+        border-color: #2f3640;
+        background-color: #2f3640;
+        width: 320px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 4px;
+
+    }
+}
+
+.Params {
+    padding: 14px;
+    border-bottom: 1px solid #f5f4f9;
+
+}
+
+.drawerService_mask {
+    margin: 40px;
+
+    ul {
+        li {
+            list-style: none;
+            padding: 10px 0;
+
+            p {
+                font-size: 16px;
+                color: #2f3640;
+                font-weight: 600;
+            }
+
+            span {
+                color: #2f3640;
+                font-size: 12px;
+            }
+        }
+    }
+}
+.Freight{
+    padding: 14px;
+    width: calc(100% - 16px - 18px);
+    border-bottom: 1px solid #f5f4f9;
+}
